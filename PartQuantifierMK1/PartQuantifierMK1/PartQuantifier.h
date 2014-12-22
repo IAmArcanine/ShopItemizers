@@ -20,13 +20,20 @@
 
 // Data Types
 
-typedef struct item
+typedef struct node
 {
+	char item[15];
 	int number;
-	char location[20];
+	char location[10];
 	FILE * itemdisc;
+	struct node * next_ptr; 
 
-} Item;
+} Node;
+
+
+// Function Prototypes
+
+
 
 #endif // !PARTQUANTIFER_H
 
