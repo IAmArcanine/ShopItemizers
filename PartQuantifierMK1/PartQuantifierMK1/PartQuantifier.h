@@ -22,11 +22,11 @@
 
 typedef struct node
 {
-	char item[15];
-	int number;
-	char location[10];
-	FILE * itemdisc;
-	struct node * next_ptr; 
+	char item[15];		// Item name
+	int number;			// Number of the part in the shop
+	char location[10];	// location of the part in the shop (Shelf [Blue A3] <== means blue wall, bottom shelf, third bin)
+	FILE * itemdisc;	// ptr to a txt file containing the discription of the item. (is this what you meant Wedge?)
+	struct node * next_ptr;  
 
 } Node;
 
