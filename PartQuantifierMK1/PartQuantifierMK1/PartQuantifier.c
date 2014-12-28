@@ -12,3 +12,20 @@
 
 #include "PartQuantifier.h"
 
+void menulayer1 (void)
+{
+	char choice = '\0';
+
+	// menu options: update, equipment, tools, raw materials, pipe fittings, road vehicles, electrical, tractors
+	printf("Input the number of your choice and press enter\n");
+	printf("1.) Electrical\n");
+	printf("2.) Equipment\n");
+	printf("3.) Pipe Fittings\n");
+	printf("4.) Raw Materials\n");
+	printf("5.) Road Vehicles\n");
+	printf("6.) Tools\n");
+	printf("7.) Tractors\n");
+	scanf(" %c", &choice);
+
+
+}

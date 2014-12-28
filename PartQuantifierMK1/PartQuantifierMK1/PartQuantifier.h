@@ -32,8 +32,8 @@ typedef struct node
 
 
 // Function Prototypes
-
-
+Node * make_node (char item[15], int number, char location[10], FILE * itemdisc);
+void menu (void);
 
 #endif // !PARTQUANTIFER_H
 
