@@ -33,7 +33,15 @@ typedef struct node
 
 // Function Prototypes
 Node * make_node (char item[15], int number, char location[10], FILE * itemdisc);
-void menu (void);
+
+void menu_main (void);
+void menu_electrical (void);
+void menu_equipment (void);
+void menu_pipe_fittings (void);
+void menu_raw_materials (void);
+void menu_road_vehicles (void);
+void menu_tools (void);
+void menu_tractors (void);
 
 #endif // !PARTQUANTIFER_H
 
